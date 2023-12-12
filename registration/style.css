@@ -1,0 +1,20 @@
+body{
+    background-image: linear-gradient(to right,rgb(102, 243, 224),rgb(6, 6, 252));
+}
+
+.container{
+    margin:auto;
+    width:80%;
+    background-color:#eeeeee;
+    padding:25px;
+    border-radius: 5px;
+}
+fieldset{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 10px;
+}
+h1, h2{
+    text-align: center;
+}
+

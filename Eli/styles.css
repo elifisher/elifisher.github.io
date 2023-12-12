@@ -1,0 +1,60 @@
+/*
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    
+    
+    Pretty about you
+    Author: eli fisher
+    Date:   9-3-2023
+
+    Filename: styles.css
+*/
+
+
+body {
+    background-image: url(wqall.jpg);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+nav {
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 20px;
+    background-image: url(orange.jpg);
+    box-shadow: 10px 10px 5px rgb(255, 251, 3);
+
+}
+
+a:visited {
+    color: rgb(2, 2, 2);
+}
+
+a:hover {
+    background-color: rgb(179, 221, 219);
+    font-size: 35px;
+    border-radius: 50%;
+}
+
+#exclamation {
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-decoration: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 20px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+p {
+    font-size: 25px;
+}
+
+.Christmasfun {
+    text-transform: capitalize;
+    color: rgb(7, 255, 7);
+    background-image: url(red.jpg);
+}

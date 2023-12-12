@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1>Registration appointment</h1>
+    <div class="container">
+        <form method="get" action="thankyou.html">
+            <h2>Registration Form</h2>
+            <fieldset>
+                <legend>
+                    Contact Information
+                </legend>
+                <label for="firstName">
+                    First Name:
+                    <input type="text" name="firstName" id="firstName" required placeholder="First Name">
+                </label>
+                <label for="lastName">
+                    Last Name:
+                    <input type="text" name="lastName" id="lastName" required placeholder="Last Name">
+                </label>
+                <label for="Email">
+                    Email:
+                    <input type="Email" name="Email" id="Email" required placeholder="Email">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Reservation Request
+                </legend>
+                <label for="Teachers">
+                    <select id="Teachers" name="Teachers">
+                        <Option value="Kirsten Markley">Kirsten Markley</Option>
+                        <Option value="Tiffany Ford">Tiffany Ford</Option>
+                        <Option value="Jackson Lewis">Jackson Lewis</Option>
+                    </select>
+                </label>
+                <label for="Month">
+                    <select id="Month" name="Month">
+                        <Option value="january">January</Option>
+                        <Option value="Febuary">Febuary</Option>
+                        <Option value="March">March</Option>
+                        <Option value="April">Arpil</Option>
+                        <Option value="May">May</Option>
+                        <Option value="June">June</Option>
+                        <Option value="July">July</Option>
+                        <Option value="August">August</Option>
+                        <Option value="September">September</Option>
+                        <Option value="October">October</Option>
+                        <Option value="November">November</Option>
+                        <Option value="December">December</Option>
+                    </select>
+                </label>
+                <label for="time">
+                    <input type="number" name="time" id="time" min="1" max="31">
+                </label>
+                <input type="radio" name="TOD"> AM
+                <input type="radio" name="TOD"> PM
+            </fieldset>
+            <fieldset>
+                <legend>Classes You Want To Take Next Semester</legend>
+                <input type="radio" name="Java"> Java
+                <input type="radio" name="C#"> C#
+                <input type="radio" name="Web Dev"> Web Dev
+                <input type="radio" name="Database"> Database
+                <input type="radio" name="System Analysis & Design"> System Analysis & Design
+            </fieldset>
+            <fieldset>
+                <legend>Additional Info</legend>
+                <textarea name="message" required placeholder="Any Additional Info" rows="10" cols="90"></textarea>
+            </fieldset>
+            <input class="submit" type="submit" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>
